@@ -26,7 +26,7 @@ class SongsController < ApplicationController
     else
       @song = Song.find_by(id: params[:id])
     end
-end
+  end
 
   def new
     @song = Song.new
